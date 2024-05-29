@@ -1,5 +1,5 @@
 class Solution:
-    def applyOperations(self, nums: List[int]) -> List[int]:
+    def applyOperations(self, nums: list[int]) -> list[int]:
         res = []
         n = 0
         for i in range(len(nums)-1):

@@ -1,5 +1,5 @@
 class Solution:
-    def similarPairs(self, words: List[str]) -> int:
+    def similarPairs(self, words: list[str]) -> int:
         ans = 0
         for i in range(len(words)):
             for j in range(i+1, len(words)):
